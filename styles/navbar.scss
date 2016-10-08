@@ -1,0 +1,25 @@
+.navbar {
+  padding: 2rem;
+  border: 0.3rem solid black;
+  background: $c-primary;
+
+  &__content {
+    margin: 0 auto;
+
+  & a {
+    color: $c-white;
+    text-decoration: none;
+    font-weight: lighter;
+    padding: 0 0.3rem;
+  }
+    &--title {
+      float: left;
+    }
+    &--links{
+      float: right;
+      padding: 0 2rem;
+
+    }
+  }
+
+}
