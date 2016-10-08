@@ -1,9 +1,12 @@
 .navbar {
+  display: flex;
   padding: 2rem;
-  border: 0.3rem solid black;
   background: $c-primary;
 
   &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
 
   & a {
@@ -13,11 +16,14 @@
     padding: 0 0.3rem;
   }
     &--title {
-      float: left;
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 4rem;
+      // float: left;
     }
     &--links{
-      float: right;
-      padding: 0 2rem;
+      // float: right;
+      padding: 0 4rem;
 
     }
   }

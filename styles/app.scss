@@ -8,3 +8,29 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'box-sizing';
 @import 'reset';
 @import 'navbar';
+@import 'hero';
+
+.hero {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  padding-bottom: 40rem;
+  background: url('images/reunion95.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  // height: 70vh;
+
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    vertical-align: middle;
+    width: 100%;
+    overflow: auto;
+    border: 0.2rem solid black;
+
+    &--text {
+      color: $c-white;
+    }
+  }
+}
