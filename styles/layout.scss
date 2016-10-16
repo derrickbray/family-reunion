@@ -1,0 +1,19 @@
+.fullpage {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: calc(20% - 0.5rem);
+  background: red;
+}
+
+.main {
+  width: calc(65% - 0.5rem);
+  background: blue;
+}
+
+.info {
+  width: calc(15% - 0.5rem);
+  background: green;
+}
