@@ -1,6 +1,6 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
-$c-primary: #030636;
+$c-primary: ;
 $c-white: #fafbfe;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
@@ -9,3 +9,10 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 // @import 'sidebar';
 @import 'layout';
+
+.sidebar {
+display: flex;
+flex-grow: 1;
+flex-wrap: wrap;
+
+}
