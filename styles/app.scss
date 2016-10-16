@@ -1,18 +1,13 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
-$c-primary: ;
+$c-primary-text: #186cba;
+$c-sideback: #c2c7c9;
+$c-sidebackhighlight: #8a8a9d;
 $c-white: #fafbfe;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'reset';
-// @import 'sidebar';
+@import 'sidebar';
 @import 'layout';
-
-.sidebar {
-display: flex;
-flex-grow: 1;
-flex-wrap: wrap;
-
-}

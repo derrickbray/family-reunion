@@ -1,0 +1,18 @@
+.sidebar {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  color: $c-primary-text;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__navbox {
+    & a {
+      color: $c-primary-text;
+      text-decoration: none;
+    }
+  }
+
+}

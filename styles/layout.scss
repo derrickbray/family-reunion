@@ -5,15 +5,18 @@
 
 .sidebar {
   width: calc(20% - 0.5rem);
-  background: red;
+  padding: 0.5rem;
+  background: $c-sideback;
 }
 
 .main {
   width: calc(65% - 0.5rem);
+  padding: 0.5rem;
   background: blue;
 }
 
 .info {
   width: calc(15% - 0.5rem);
+  padding: 0.5rem;
   background: green;
 }
