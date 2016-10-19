@@ -8,8 +8,28 @@
     text-align: center;
   }
 
+  &__super-item {
+    margin: 0;
+    padding: 0;
+    border-top: 0.1rem solid grey;
+
+    &-title {
+      margin: 0;
+      font-size: 1rem;
+    }
+    &-name {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+    &-much {
+      margin: 0;
+      font-size: 0.8rem;
+    }
+  }
+
   &__navbox {
     & a {
+      width: 100%;
       color: $c-primary-text;
       text-decoration: none;
     }
