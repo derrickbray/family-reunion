@@ -17,6 +17,8 @@
 
 .info {
   width: calc(15% - 0.5rem);
+  margin: 0;
   padding: 0.5rem;
-  background: green;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
 }
